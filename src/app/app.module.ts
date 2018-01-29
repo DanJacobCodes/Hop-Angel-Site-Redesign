@@ -11,6 +11,7 @@ import { AboutComponent } from './about/about.component';
 import { MenuComponent } from './menu/menu.component';
 import { BeerComponent } from './beer/beer.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { HomepageComponent } from './homepage/homepage.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { GalleryComponent } from './gallery/gallery.component';
     AboutComponent,
     MenuComponent,
     BeerComponent,
-    GalleryComponent
+    GalleryComponent,
+    HomepageComponent
   ],
   imports: [
     BrowserModule,

@@ -1,6 +1,6 @@
   <ul class="nav nav-tabs">
   <li class="nav-item">
-    <a class="nav-link active" href="#">Home</a>
+    <a class="nav-link active" routerLink = ''>Home</a>
   </li>
   
   <li class="nav-item">
@@ -12,21 +12,28 @@
 
   
   <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" data-toggle="dropdown" routerLink='menu' role="button" aria-haspopup="true" aria-expanded="false">Menu</a>
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu</a>
     <div class="dropdown-menu">
 
-      <a class="dropdown-item" routerLink=''>Food</a>
+      <a class="dropdown-item" routerLink='menu'>Food</a>
       <a class="dropdown-item" routerLink='beer'>Beer</a>
       <a class="dropdown-item" routerLink=''>Something else here</a>
       <div class="dropdown-divider"></div>
       <a class="dropdown-item" routerLink=''>Separated link</a>
     </div>
   </li>
+  <!-- Remember to add Google Maps API for Address, mailto for email, and phone number -->
+  <p class="quickInfo"><a>7980 Oxford Ave.</a></p>
+  <p class="quickInfo">215-437-1939</p>
+  <p class="quickInfo">chris@hopangel.com</p>
+
 </ul>
+
 <div style="text-align:center">
   <h1>
-    Welcome to {{ title }}!
+    Welcome to {{ title }}
   </h1>
+  <p>German-American Restaurant and Beer Hall</p>
     <router-outlet></router-outlet>
-
 </div>
+

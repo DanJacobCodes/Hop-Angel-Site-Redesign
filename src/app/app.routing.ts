@@ -5,10 +5,17 @@ import { BeerComponent } from './beer/beer.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { MenuComponent } from './menu/menu.component';
 import { ContactComponent } from './contact/contact.component';
+import { HomepageComponent } from './homepage/homepage.component';
+
 
 
 
 const appRoutes: Routes = [
+
+	{
+		path: '',
+		component: HomepageComponent
+	},
 
 	{
 	    path: 'gallery',
