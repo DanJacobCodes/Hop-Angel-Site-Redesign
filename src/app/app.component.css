@@ -2,3 +2,20 @@
 	float: right;
 
 }
+
+.bd-footer {
+	background-color: black;
+	margin-top: 4rem;
+	font-size: 85%;
+	padding: 4rem 0;
+	text-align: left;
+}
+
+.footerItems {
+	text-decoration-style: none;
+}
+
+#footer {
+    display: block;
+    list-style-type: disc;
+}

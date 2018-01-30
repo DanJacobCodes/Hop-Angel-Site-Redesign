@@ -1,4 +1,5 @@
-  <ul class="nav nav-tabs">
+<nav>
+  <ul class="nav nav-tabs smooth-scroll list-unstyled">
   <li class="nav-item">
     <a class="nav-link active" routerLink = ''>Home</a>
   </li>
@@ -7,9 +8,15 @@
     <a class="nav-link active" routerLink='contact'>Contact</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" routerLink='about'>About</a>
+    <a class="nav-link active" href="Parties">Parties</a>
   </li>
-
+  <li class="nav-item">
+    <a class="nav-link active" href="Quizzo">Quizzo</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="nightlySpecials">Nightly Specials</a>
+  </li>
+  
   
   <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu</a>
@@ -23,11 +30,15 @@
     </div>
   </li>
   <!-- Remember to add Google Maps API for Address, mailto for email, and phone number -->
-  <p class="quickInfo"><a>7980 Oxford Ave.</a></p>
-  <p class="quickInfo">215-437-1939</p>
-  <p class="quickInfo">chris@hopangel.com</p>
+  <span>7980 Oxford Ave. 
+    </span>
+   <span>| 
+    215-437-1939 | </span>
+   <span> chris@hopangel.com </span>
 
 </ul>
+</nav>
+  
 
 <div style="text-align:center">
   <h1>
@@ -37,3 +48,20 @@
     <router-outlet></router-outlet>
 </div>
 
+
+
+<footer class="bd-footer">
+  <div class="container">
+    <ul class="bd-footer-links" id="footer">
+      <li class="footerItems"><a routerLink="contact">Contact</a></li>
+      <li class="footerItems"><a routerLink="about">About</a></li>
+      <li class="footerItems"><a routerLink="beer">Menu</a></li>
+      <li class="footerItems"><a href="#">Dummy</a></li>
+      
+    </ul>
+     <p class="navbar-text pull-left">© 2018 - Site Built By Dan Jacob.
+      </p>
+    
+  </div>
+  
+</footer>

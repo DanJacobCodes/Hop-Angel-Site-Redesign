@@ -1,3 +1,7 @@
 .hoursTableItem {
 	margin-left: 50%;
 }
+
+body {
+	position: relative;
+}
