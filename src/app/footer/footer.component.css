@@ -20,4 +20,5 @@ html, body {
 }
 .site-footer {
   background: orange;
+  position: relative;
 }
