@@ -18,4 +18,5 @@
 #footer {
     display: block;
     list-style-type: disc;
+    position: absolute;
 }

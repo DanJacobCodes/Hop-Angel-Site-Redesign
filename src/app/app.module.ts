@@ -12,6 +12,7 @@ import { MenuComponent } from './menu/menu.component';
 import { BeerComponent } from './beer/beer.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { HomepageComponent } from './homepage/homepage.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { HomepageComponent } from './homepage/homepage.component';
     MenuComponent,
     BeerComponent,
     GalleryComponent,
-    HomepageComponent
+    HomepageComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
