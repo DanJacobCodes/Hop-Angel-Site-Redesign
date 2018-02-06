@@ -6,6 +6,7 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { MenuComponent } from './menu/menu.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomepageComponent } from './homepage/homepage.component';
+import { EventsComponent } from './events/events.component';
 
 
 
@@ -41,6 +42,11 @@ const appRoutes: Routes = [
   	{
   		path: 'beer',
   		component: BeerComponent
+  	},
+
+  	{
+  		path: 'events',
+  		component: EventsComponent
   	}
 
 

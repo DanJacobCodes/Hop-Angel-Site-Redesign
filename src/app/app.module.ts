@@ -13,6 +13,7 @@ import { BeerComponent } from './beer/beer.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { FooterComponent } from './footer/footer.component';
+import { EventsComponent } from './events/events.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { FooterComponent } from './footer/footer.component';
     BeerComponent,
     GalleryComponent,
     HomepageComponent,
-    FooterComponent
+    FooterComponent,
+    EventsComponent
   ],
   imports: [
     BrowserModule,
