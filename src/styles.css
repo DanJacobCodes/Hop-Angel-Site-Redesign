@@ -1,5 +1,12 @@
-  html, body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+body .content {
+  padding: 60px 15px 0;
+}

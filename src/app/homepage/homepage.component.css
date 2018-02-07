@@ -5,3 +5,8 @@
 body {
 	position: relative;
 }
+
+#navbar-sections{
+	height: auto;
+	overflow-y: scroll;
+}
