@@ -5,6 +5,8 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 0px;
+  background-color: white;
+
 
 }
 
@@ -33,7 +35,14 @@ footer ul a {
 
 }
 
+/*nav {
+	background-color: black!important;
+
+}
+*/
 #title {
 }
 
-.jumbotron {}
+.jumbotron {
+	background-color:#EEEEEE !important;
+}
