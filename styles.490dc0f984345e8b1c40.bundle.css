@@ -1,0 +1,7 @@
+html{position:relative;min-height:100%}body{
+  /* Margin bottom by footer height */margin-bottom:0;background-color:#fff}body .content{padding:60px 15px 0}li{list-style-type:none}footer ul li{display:inline-block}ul a{color:#000!important}footer{margin-top:15%}footer ul a{color:#fff!important}
+/*nav {
+	background-color: black!important;
+
+}
+*/.jumbotron{background-color:#eee!important}
